@@ -7,7 +7,8 @@ def generate_flight_data():
     flights = []
     rott = "Rotterdam"
 
-    destinations = ['Tokyo', 'Warsaw', 'Bangkok', 'Osaka', 'Riyadh', 'Edinburgh', 'Hanoi', 'London', 'Tel Aviv', 'Dublin', 'Dallas/Fort Worth', 'Paris', 'Athens', 'Manila', 'Istanbul', 'Brisbane', 'Johannesburg', 'Toronto', 'Madrid', 'Dubai', 'Helsinki', 'Doha', 'Zurich', 'Vienna', 'Incheon', 'Frankfurt', 'São Paulo', 'Hong Kong', 'Stockholm', 'San Francisco', 'Melbourne', 'Milan', 'Singapore', 'Moscow', 'Cape Town', 'Seoul', 'Mumbai', 'Copenhagen', 'Budapest', 'Beijing', 'Brussels', 'Barcelona', 'New York', 'Los Angeles', 'Kuala Lumpur', 'Oslo', 'Prague', 'Lima', 'Sydney', 'Rome', 'Munich', 'Mexico City', 'Cairo', 'Lisbon', 'Shanghai']
+    destinations = ['Athens', 'Bangkok', 'Barcelona', 'Beijing', 'Brisbane', 'Brussels', 'Budapest', 'Cairo', 'Cape Town', 'Copenhagen', 'Dallas/Fort Worth', 'Doha', 'Dubai', 'Dublin', 'Edinburgh', 'Frankfurt', 'Hanoi', 'Helsinki', 'Hong Kong', 'Incheon', 'Istanbul', 'Johannesburg', 'Kuala Lumpur', 'Lima', 'Lisbon', 'London', 'Los Angeles', 'Madrid', 'Manila', 'Melbourne', 'Mexico City', 'Milan', 'Moscow', 'Mumbai', 'Munich', 'New York', 'Osaka', 'Oslo', 'Paris', 'Prague', 'Riyadh', 'Rome', 'San Francisco', 'Seoul', 'Shanghai', 'Singapore', 'Stockholm', 'Sydney', 'São Paulo', 'Tel Aviv', 'Tokyo', 'Toronto', 'Vienna', 'Warsaw', 'Zurich']
+
     aircraft = "Boeing 737"
     gate = "A1"
     flight_token = ["AB", "CD", "EF", "GH", "IJ", "KL", "MN", "OP", "QR", "ST", "UV", "WX", "YZ"]
